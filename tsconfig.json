@@ -22,7 +22,9 @@
     "noUncheckedSideEffectImports": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
+      "@theme/*":["./src/theme/*"],
+      "@ui/*":["./src/ui/*"],
+      "@features/*":["./src/features/*"]
     }
   }
 }
